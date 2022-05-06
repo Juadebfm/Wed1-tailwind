@@ -1,0 +1,15 @@
+{
+  "name": "wed1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli build -i src/styles.css -o public/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
